@@ -35,4 +35,10 @@ Example = SHA 256.
 * Grovers's Algorithm :This is a quantum algorithm that solves the unstructured problems.
 * Double Ratchet Algorithm : this is a key management algorithm developed in 2013.
 
-
+**How to make a private blockchain network:**
+1)  make a genesis.json file for gensis block.
+2)  geth --datadir "./data" account new
+    Password:
+    Repeat password: 
+3)   geth --datadir ./data init ../genesis.json
+4)   geth --datadir .\data\ --nodiscover 
